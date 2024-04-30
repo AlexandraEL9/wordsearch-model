@@ -1,4 +1,47 @@
-td {
+.table1 {
+    border-collapse: collapse;
+    max-width: 100%;
+    cursor: context-menu;
+    float: left;
+    padding: 20px;
+}
+
+.white1 {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.button1 {
+    background-color: yellow;
     border: 2px solid black;
-    padding: 15px;
+    border-radius: 4px;
+    color: black;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#direction1 {
+    direction: rtl;
+}
+
+.green1 {
+    font-size: large;
+    color: green;
+}
+
+.gainsboro {
+    background-color: gainsboro;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.word-found {
+    text-decoration: line-through;
 }
